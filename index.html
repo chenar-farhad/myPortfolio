@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+
+  <title>Chenar's Portfolio</title>
+</head>
+
+<body>
+
+  <nav class=" navv navbar navbar-expand-lg navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Chenar's Portfolio</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse iDiv-navigation justify-content-end " id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#project">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Hair Me</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div id="cont" class="iDiv-body overflow-hidden" data-aos-anchor-placement="top-bottom">
+    <div id="" class=" a d-flex;flex-column" style="height: 100vh;">
+      <div id="home" class="iDiv-home">
+        <div class="iDiv-homeLogo">
+          <img class="iPhoto" src="https://stormotion.io/blog/content/images/2018/12/developer.gif"
+            data-aos="fade-up"></img>
+        </div>
+
+        <div class="iDiv-homeText" data-aos="fade-up" data-aos-duration="1000">
+          <h1 class="iFontHeader" data-aos="fade-up"> <strong> Hi, I'm Chenar</strong></h1>
+          <h6 class="iHomeTextDes" data-aos="fade-up" data-aos-duration="1000">i'm Windows Application Developer</h6>
+          <div class="iDiv-HomeBtn">
+            <a href="#contact">
+              <button class="btn iBtn-Hire">Hire Me</button>
+            </a>
+            <button class="bi bi-download btn iBtn-CV" onclick="cvDownload()"> Download cv <svg
+                style="margin-left: 10px;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-download mb-1" viewBox="0 0 16 16">
+                <path
+                  d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z" />
+                <path
+                  d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z" />
+              </svg>
+              <div class="container-fluid">
+            </button>
+
+          </div>
+
+          <div class="iDiv-Change-color d-flex flex-column mt-5">
+            <h6> <strong> What do you wish? 😂 </strong></h6>
+            <div class="d-flex flex-row justify-content-center">
+              <div onclick="color1()" class="m-1"
+                style="cursor:pointer; background-color: blueviolet;height: 30px;width: 30px;border-radius: 50%;border: 2px solid var(--color1);">
+              </div>
+              <div onclick="color2()" class="m-1"
+                style="cursor:pointer; background-color:#ebd323;height: 30px;width: 30px; border-radius: 50%;border: 2px solid var(--color1);">
+              </div>
+              <div onclick="color3()" class="m-1"
+                style="cursor:pointer; background-color: #4C60ED ;height: 30px;width: 30px;border-radius: 50%;border: 2px solid var(--color1);">
+              </div>
+              <div onclick="color4()" class="m-1"
+                style="cursor:pointer; background-color: #d45757 ;height: 30px;width: 30px;border-radius: 50%;border: 2px solid var(--color1);">
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="about" class="iDiv-About" data-aos="fade-up">
+
+      <div class="col-md-6 mb-4 d-flex justify-content-center" data-aos="fade-up">
+
+        <img class="rounded-circle" alt="100x100"
+          src="https://scontent.fisu6-2.fna.fbcdn.net/v/t1.6435-9/65508691_2029995600439232_7421391140286365696_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=Qj9xEqSzanoAX_pj1bb&_nc_ht=scontent.fisu6-2.fna&oh=9be596d9d7ad93dbd46092beb5989fb4&oe=61984BC7"
+          data-holder-rendered="true">
+
+      </div>
+      <h1 class="iFontHeaderAbout mb-0 text-center" data-aos="fade-up">Who is me?</h1>
+      <h1 class="mt-0" data-aos="fade-up">__________ _ __</h1>
+
+      <h6 data-aos="fade-up" class="container text-center p-5 fs-3">
+        Hi, My name is Chener Farhad and I'm 23 years old. I've graduated from institute in the Information Technology
+        Department and i have good information on computers especially Windows application and Web design.</h6>
+    </div>
+    <div id="project" class="iDiv-project p-5 " data-aos="fade-up">
+      <div class="container d-flex flex-column justify-content-center align-items-center">
+        <h1 class=" iFontHeaderProject" data-aos="fade-up">What're my <strong>projects?</strong> </h1>
+        <h1 class="pb-5" data-aos="fade-up">__________ _ __</h1>
+      </div>
+
+      <div class="iDiv-project container" data-aos="fade-up">
+        <div class="iCard" data-aos="fade-up">
+          <div class="row g-0" style="height: 100%;">
+            <div class="col-md-4 iCardParent d-flex align-items-center justify-content-center">
+              <img
+                src="https://res.cloudinary.com/nimbo/image/upload/v1613483375/modaltrans/assets/images/mockups/hero.png"
+                class="img-fluid rounded-start  " alt="..." />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h4 class="card-title">
+                  <b>
+                    Restaurant Managment <br />
+                    System</b>
+                </h4>
+                <p class="card-text">
+                  A restaurant management system is a type of point-of-sale (POS) software specifically designed for
+                  restaurants, bars, food trucks and others in the food service industry. Unlike a POS system, RMS
+                  encompasses all back-end needs, such as inventory and staff management.
+                </p>
+                <p class="card-text">
+                  <small class="text-muted">Last updated 3 month ago</small>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="iCard" data-aos="fade-up">
+          <div class="row g-0" style="height: 100%;">
+            <div class="col-md-4 p-2 iCardParent d-flex align-items-center justify-content-center">
+              <img
+                src="https://mayurik.com/uploads/P9862/veterinary%20clinic%20management%20system%20in%20php%20and%20mysql.jpg"
+                class="img-fluid rounded-start p-2" alt="..." />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h4 class="card-title">
+                  <b>
+                    Clinic Managment <br />
+                    System</b>
+                </h4>
+                <p class="card-text">
+                  A Clinic Management System is an integrated information system for managing all aspects of a medical
+                  clinic's operations such as medical, financial, administrative, legal, and compliance. It includes
+                  electronic health records, business intelligence, and revenue cycle management.
+                </p>
+                <p class="card-text">
+                  <small class="text-muted">Last updated 1 month ago</small>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="iCard" data-aos="fade-up">
+          <div class="row g-0" style="height: 100%;">
+            <div class="col-md-4 p-3 iCardParent d-flex align-items-center justify-content-center">
+              <img src="https://sitemate.com/wp-content/uploads/2019/07/Types-of-document-management-systems.png"
+                class="img-fluid rounded-start mt-4" alt="..." />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h4 class="card-title"><b> Razga Company</b></h4>
+                <p class="card-text">
+                  Razga management system can be defined as a robust software used to register, organize, prioritize,
+                  and resolve support tickets. These tickets can be issues or requests requested by your employees or
+                  your customers
+                </p>
+                <p class="card-text">
+                  <small class="text-muted">Last updated 3 month ago</small>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="iCard" data-aos="fade-up">
+          <div class="row g-0" style="height: 100%;">
+            <div class="col-md-4 p-2 iCardParent d-flex align-items-center justify-content-center">
+              <img
+                src="https://cdn.dribbble.com/users/5623/screenshots/14509748/media/b5e4935952ac190adc8dcd619102cfa7.png"
+                class="img-fluid rounded-start mt-4" alt="..." />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h4 class="card-title">
+                  <b>
+                    Market Managment <br />
+                    System</b>
+                </h4>
+                <p class="card-text">
+                  Market Management System solutions rely on an open architecture leveraging industry standards, such as
+                  CIM and harmonized models, such as ENTSO-E. ... This interface provides portals and services to market
+                  participants and other IT services such as EMS, market monitoring, Meter Data Management, and
+                  accounting.
+                </p>
+                <p class="card-text">
+                  <small class="text-muted">Last updated 9 month ago</small>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="contact" class="iDiv-Contact" data-aos="fade-up">
+      <!-- <div id="contact" class="iDivContact  p-5 ">  -->
+      <div class="d-flex justify-content-center align-items-center flex-column">
+        <h1 style="text-align: center;" class="iFontHeader text-uppercase" data-aos="fade-up">Hire Me!</h1>
+        <h1 class="pb-5" data-aos="fade-up">__________ _ __</h1>
+      </div>
+      <div class="iDiv-form" data-aos="fade-up">
+        <form action="" class="container">
+          <div class="form-floating m-2 ">
+            <input type="text" class="form-control" id="floatingPassword" placeholder="Name">
+            <label for="floatingPassword">Name</label>
+          </div>
+          <div class="form-floating m-2">
+            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput">Email address</label>
+          </div>
+          <div class="form-floating m-2 h-75 d-flex flex-column">
+            <textarea style="height: 100px;" type="text" class="form-control" id="floatingPassword"
+              placeholder="Name"></textarea>
+            <label for="floatingInput">description</label>
+            <button class="btn btn-primary ">Send ✓</button>
+          </div>
+        </form>
+      </div>
+      <!-- </div> -->
+    </div>
+    <footer data-aos="fade-up">
+      <div class="iFooterText">
+        <h1 class="pb-0 iH1">Social Media</h1>
+        <h1 class="pb-5 pt-0" data-aos="fade-up">__________ _ __</h1>
+      </div>
+
+      <div class="wrapper d-flex flex-wrap justify-content-center" data-aos="fade-up">
+
+        <div onclick="facebook()" class="icon facebook">
+          <div class="tooltip">Facebook</div>
+          <span><i class="fab fa-facebook-f"></i></span>
+        </div>
+
+        <div onclick="twitter()" class="icon twitter">
+          <div class="tooltip">Twitter</div>
+          <span><i class="fab fa-twitter"></i></span>
+        </div>
+        <div onclick="instagram()" class="icon instagram">
+          <div class="tooltip">Instagram</div>
+          <span><i class="fab fa-instagram"></i></span>
+        </div>
+        <div onclick="github()" class="icon github">
+          <div class="tooltip">Github</div>
+          <span><i class="fab fa-github"></i></span>
+        </div>
+        <div onclick="linkedin()" class="icon youtube">
+          <div class="tooltip">Linkedin</div>
+          <span><i class="fab fa-linkedin"></i></span>
+        </div>
+      </div>
+      <h2 class="pt-5" data-aos="fade-up"><strong> chenar.farhad@gmail.com</strong></h2>
+
+      <div class=" container-fluid  p-0" data-aos="fade-up">
+        <ul class="iDiv-footerMenu  container-fluid p-0">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#project">Projects</a></li>
+          <li><a href="#contact">Hire Me</a></li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>
+<script src="script.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js">
+</script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+  integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+  integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>

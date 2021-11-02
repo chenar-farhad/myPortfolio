@@ -1,0 +1,554 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa");
+
+:root {
+  --color1: #d45757;
+  --color2: #464646;
+  --color3: rgb(167, 167, 167);
+}
+
+* {
+  font-family: "Comfortaa", sans-serif;
+
+
+}
+::selection {
+  color: #fff;
+  background: var(--color2);
+}
+
+.iDiv-header {
+  background-color: rgb(198, 241, 241);
+  display: flex;
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  align-items: center;
+}
+
+
+.navv {
+  width: 100%;
+  background: var(--color1) !important;
+  font-weight: bold;
+
+  position: fixed !important;
+  z-index: 999;
+}
+
+.navv.active {
+  background: var(--color2) !important;
+  color: var(--color1) !important;
+}
+
+.home-svg {
+  position: absolute;
+  z-index: 99;
+  min-width: 100vw;
+  min-height: 190px;
+}
+
+
+.iDiv-body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  background-color: #ffffff;
+  color: var(--color1);
+}
+
+.iDiv-home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+}
+
+.iDiv-homeText {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 60vh;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+  font-family: "", serif;
+  font-size: 48px;
+}
+
+.iDiv-homeLogo {
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin: 20px;
+  background-color: rgb(255, 255, 255);
+  min-width: 300px;
+
+}
+
+.iPhoto {
+  /*gifaka*/
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: auto;
+  height: 50%;
+
+}
+
+.iFontHeader {
+  text-align: center;
+  font-size: 64px;
+  font-weight: 400;
+}
+
+.iHomeTextDes {
+  font-weight: 400;
+  color: var(--color2);
+}
+
+.iDiv-About {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--color1);
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.iDiv-About img {
+  width: 200px;
+  height: auto;
+  border: 10px solid;
+}
+
+.iFontHeaderAbout {
+  text-transform: uppercase;
+  font-size: 64px;
+  font-weight: 400;
+}
+
+.iFontHeaderProject {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 60px;
+  font-weight: 400;
+  padding-bottom: 0%;
+}
+
+.iDiv-project {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+  margin: 50px 0px;
+}
+
+.iCard {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  color: var(--color2);
+  height: 400px;
+  width: 540px;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 1px 3px 10px rgb(227, 228, 228);
+
+
+}
+
+.iCard:hover .iCardParent {
+  background-color: white;
+  transform: rotate(3deg);
+
+}
+
+.iCardParent {
+  transition: 300ms;
+  height: 100%;
+  border-radius: 10px;
+  background-color: var(--color1);
+}
+
+.iCard .card-title {
+  color: var(--color1);
+}
+
+.iCard .text-muted {
+  color: var(--color3) !important;
+}
+
+.iCard:hover {
+  color: white;
+  background-color: var(--color1);
+  border-radius: 10px;
+}
+
+.iCard:hover .card-title {
+  color: #ffffff;
+}
+
+.iCard:hover .text-muted {
+  color: #cccbcb !important;
+  font-style: italic;
+}
+
+.iDiv-HomeBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.iDiv-HomeBtn button {
+  margin: 5px;
+  margin-top: 40px;
+}
+
+.iBtn-Hire {
+  font-weight: 700;
+  background-color: var(--color1);
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin-top: 20px;
+  letter-spacing: 2px;
+  transition: 0.4s;
+}
+
+
+.iBtn-Hire:hover {
+  background-color: #ffffff;
+  color: var(--color1);
+  /* border-color: #8080ff; */
+  box-shadow: 1px 2px 10px rgb(212, 212, 212);
+
+}
+
+.iBtn-CV {
+  background-color: #ffffff;
+  text-transform: uppercase;
+  color: var(--color1);
+  border-color: var(--color1);
+  padding: 10px 50px;
+  border-radius: 20px;
+  margin-top: 20px;
+  transition: 200ms;
+}
+
+.iBtn-CV:hover {
+  transition: 200ms;
+  background-color: var(--color1);
+  color: #ffffff;
+  box-shadow: 1px 2px 10px rgb(212, 212, 212);
+}
+
+.iDiv-Contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--color1);
+  height: 100vh;
+}
+
+.iDiv-Contact input {
+  color: #80ffd9;
+}
+
+.iDiv-Contact h1 {
+  color: #ffffff;
+}
+
+.iDiv-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  height: auto;
+}
+
+.iDiv-form button {
+  font-weight: 700;
+  background-color: var(--color1);
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 10px 40px;
+  border-radius: 10px;
+  margin-top: 20px;
+  letter-spacing: 2px;
+  border: 0px;
+  transition: 200ms;
+
+}
+
+.iDiv-form button:hover {
+  background-color: #ffffff;
+  color: var(--color1);
+  box-shadow: 1px 2px 10px rgb(212, 212, 212);
+}
+
+.iFooterText {
+  margin-top: 50px;
+}
+
+footer ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 50px;
+  padding-left: 0px !important;
+  margin-left: 0px !important;
+}
+
+footer li {
+  margin-left: 30px;
+  text-transform: uppercase;
+}
+
+footer a:hover {
+  color: var(--color2) !important;
+}
+
+footer li:first-child {
+  list-style-type: none;
+  margin-left: 0px;
+}
+
+footer a {
+  transition: 300ms;
+  color: var(--color1);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+footer {
+  width: 100%;
+  height: auto;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+footer .iH1 {
+  color: var(--color1);
+  font-weight: 700;
+}
+
+footer h2 {
+  color: var(--color2);
+}
+
+.wrapper {
+  display: inline-flex;
+}
+
+.wrapper .icon {
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 50%;
+  padding: 15px;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip {
+  position: absolute;
+  top: 0;
+  font-size: 14px;
+  background-color: #ffffff;
+  color: #ffffff;
+  padding: 5px 8px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip::before {
+  position: absolute;
+  content: "";
+  height: 8px;
+  width: 8px;
+  background-color: #ffffff;
+  bottom: -3px;
+  left: 50%;
+  transform: translate(-50%) rotate(45deg);
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .icon:hover .tooltip {
+  top: -45px;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.wrapper .icon:hover span,
+.wrapper .icon:hover .tooltip {
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper .facebook:hover,
+.wrapper .facebook:hover .tooltip,
+.wrapper .facebook:hover .tooltip::before {
+  background-color: #3b5999;
+  color: #ffffff;
+}
+
+.wrapper .twitter:hover,
+.wrapper .twitter:hover .tooltip,
+.wrapper .twitter:hover .tooltip::before {
+  background-color: #46c1f6;
+  color: #ffffff;
+}
+
+.wrapper .instagram:hover,
+.wrapper .instagram:hover .tooltip,
+.wrapper .instagram:hover .tooltip::before {
+  background-color: #e1306c;
+  color: #ffffff;
+}
+
+.wrapper .github:hover,
+.wrapper .github:hover .tooltip,
+.wrapper .github:hover .tooltip::before {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.wrapper .youtube:hover,
+.wrapper .youtube:hover .tooltip,
+.wrapper .youtube:hover .tooltip::before {
+  background-color: #de463b;
+  color: #ffffff;
+}
+
+/*    footer sicoal -^ */
+
+@media only screen and (max-width: 770px) {
+  .iDiv-homeLogo {
+    height: 30vh;
+  }
+
+  .iFontHeaderProject {
+    font-size: 55px;
+  }
+
+  .iCard {
+    height: auto;
+    padding: 0;
+  }
+
+  .iCard img {
+    padding: 50px;
+  }
+
+  .iCard h4 {
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+
+  .iDiv-form {
+    width: 90vw;
+    height: auto;
+  }
+
+  .iDiv-footerMenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 12px;
+    overflow: hidden;
+  }
+
+  .iDiv-footerMenu a {
+    display: block;
+    color: var(--color1);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .iDiv-footerMenu li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px !important;
+  }
+
+  footer li:first-child {
+    padding-left: 30px !important;
+  }
+
+  .iDiv-About {
+    padding-top: 40px;
+  }
+
+  .iDiv-About img {
+    width: 40vw;
+    border-color: #333333;
+    border-width: 30px;
+    border: 10px solid #ffff;
+    border-collapse: var(--color2);
+  }
+
+  .iDiv-HomeBtn {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .iDiv-HomeBtn button {
+    margin: 0px;
+  }
+}
+
+
+@media screen and (max-height: 700px) {
+
+
+  .iDiv-About img {
+    width: 100px;
+    border: 5px solid white;
+  }
+
+  .iDiv-About {
+    height: 600px;
+  }
+
+  .iDiv-Contact {
+    height: 700px;
+  }
+}
